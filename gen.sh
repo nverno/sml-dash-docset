@@ -24,5 +24,6 @@ if ! gem list | grep sqlite3 ; then
 fi
 
 ruby test.rb
+rm test.db
 
 popd>/dev/null
